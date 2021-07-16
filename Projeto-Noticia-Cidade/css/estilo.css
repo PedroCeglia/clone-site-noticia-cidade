@@ -1,0 +1,135 @@
+body{
+	margin:  0;
+	background-color: #f8f8f8; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#cabecalho{
+	height: 233px;
+	background: #294C71 url(../imagens/fundo.png) repeat-x left top;
+	 
+}
+#cabecalho-interno{
+	margin: 0 auto;
+	width: 50%;
+	height: 180px;
+	background: #294C71 url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+#menu-topo{
+	padding: 10px;
+}
+
+#menu-topo a{
+	display: inline;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #FFF;
+	background:  #982D2D url(../imagens/divisor.png) no-repeat left center; 
+	padding: 10px 15px;/*#A00505*/
+}
+#menu-topo a.home{
+	background-image: none;
+	background-color: #CA2A2A; 
+}
+#menu-topo a:hover{
+	background-color: #CA2A2A; 
+}
+img.logo{
+	width: 152px;
+	height: 66px;
+	padding: 20px;
+}
+#conteudo{
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid red;
+
+}
+#conteudo h3{
+	padding-left: 10px;
+	line-height: 2.2em;
+	color: #FFF;
+	background-color: #102843;
+
+}
+#coluna-nav{ float: left;
+	width: 20%;
+
+}
+.nav a{
+	width: 100%;
+	line-height: 2em;
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover{
+	background-color: #BCCBDD;
+}
+.nav{
+	padding: 1px 10px;
+	background: grey url(../imagens/fundo-caixa.png);
+}
+#conteudo ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#conteudo li{
+
+	height: 2em;
+	background: white;
+	border-bottom: 1px solid #f8f8f8;
+}
+input.submit{
+	color: #FFF;
+	background-color: #A00505;
+	padding: 10px;
+}
+input.text{
+	width: 80%;
+	padding: 5px;
+	border: 1px solid #8EA7C5;
+}
+.coluna-conteudo{
+	float: left;
+	margin: 0 20px;
+	width: 35%;
+	border: 1px solid red;
+}
+.publicacao{
+	padding: 0.009px 10px;
+	background: grey url(../imagens/fundo-caixa.png);
+}
+.clear{
+	clear: both;
+}
+.publicacao.ultima-entrevista img{
+	width: 80%;
+}
+.publicacao.ultima-entrevista h5{
+	width: 80%;
+	margin: 0px;
+	padding: 5px;
+	background-color: #A00505;
+
+}
+.publicacao.destaque img{
+	width: 80%;
+}
+.publicacao.destaque h5{
+	width: 80%;
+	margin: 0px;
+	padding: 5px;
+	background-color: #A00505;
+	color: #fff;
+}
+.left{
+	float: left;
+}
+.mundo img{
+	width: 60px;
+	height: 100px;
+}
+.tete{
+	width: 70%;
+}
